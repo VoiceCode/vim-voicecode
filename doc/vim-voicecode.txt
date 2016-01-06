@@ -1,0 +1,56 @@
+*vim-voicecode.txt* A short multi line description of your plugin
+
+===============================================================================
+CONTENTS                                                        *vim-voicecode*
+
+    1. Intro ............................................ |vim-voicecode-intro|
+    2. Requirements .............................. |vim-voicecode-requirements|
+    3. Usage ............................................ |vim-voicecode-usage|
+    4. Licence ........................................ |vim-voicecode-licence|
+===============================================================================
+1. Intro                                                  *vim-voicecode-intro*
+
+A Vim plug-in that allows interfacing with VoiceCode by communicating the
+current mode to the VoiceCode api. This plug-in works in conjunction with
+[vim](https://github.com/VoiceCode/vim) to extend the stock VoiceCode commands
+to work consistently inside terminal Vim.
+
+2. Requirements                                    *vim-voicecode-requirements*
+
+You need a VIM version that was compiled with python support, which is typical
+for most distributions on Linux/Mac.  You can check this by running
+``vim --version | grep +python``
+if you get a hit you are in business.
+
+Although it is not required it is suggested that you also use https://github.com/VoiceCode/vim
+which will allow you to use all of the stock VoiceCode commands.
+
+3. Usage                                                  *vim-voicecode-usage*
+
+This plug-in performs all the actions in the background requiring no
+interaction from the user.
+
+4. Licence                                              *vim-voicecode-licence*
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+vim:ft=help
