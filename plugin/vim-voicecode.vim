@@ -10,7 +10,7 @@ def set_mode():
         sock.connect('/tmp/voicecode_events.sock')
         fileType = vim.eval('&ft')
         mode = vim.eval('a:newMode')
-        sock.sendall('{event:"vim:change-mode",mode:"{}",fileType:"{}"}'.format(mode, fileType))
+        sock.sendall('{{event:"vim:change-mode",mode:"{}",fileType:"{}"}}'.format(mode, fileType))
     except:
         pass
 
