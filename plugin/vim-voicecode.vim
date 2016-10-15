@@ -19,7 +19,7 @@ set_mode()
 endPython
 endfunction
 
-autocmd VimEnter * call SetVoicecodeMode('vim:normal')
-autocmd VimLeave * call SetVoicecodeMode('vim:exited')
-autocmd InsertEnter * call SetVoicecodeMode('vim:insert')
-autocmd InsertLeave * call SetVoicecodeMode('vim:normal')
+autocmd VimEnter * call SetVoicecodeMode('normal')
+autocmd VimLeave * call SetVoicecodeMode('exited')
+autocmd InsertEnter * call SetVoicecodeMode('insert')
+autocmd InsertLeave * call SetVoicecodeMode('normal')
