@@ -46,7 +46,7 @@ MyCoolVimPackage.commands({
     description: "File type aware function definition",
     tags: ["text"],
     grammarType: 'textCapture',
-    scope: 'vim', // important
+    scope: 'vim:terminal', // important
     action: function(input) {
       if (vim.state.mode === "normal") { this.key("I"); }
       if (vim.state.fileType === "python") {
